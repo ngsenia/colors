@@ -59,6 +59,7 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  
   header {
     background-color: mediumvioletred ; 
   }
@@ -72,18 +73,24 @@ footer {
   }
 
   #column-3 {
-    background-color: lightpink ;
+    background-color: lightpink;
+    width: 100%;
   }
 
   footer {
     background-color: violet;
   }
   
+  .col-3 {
+    width: 50%;
+  }
+
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  
   header {
     background-color: green;
   }
@@ -98,10 +105,15 @@ footer {
 
   #column-3 {
     background-color: aquamarine;
+    width: 33.3333%;
   }
 
   footer {
     background-color: mediumturquoise ;
   }
-   
+
+  .col-3{
+    width: 33.33333334%;
+  }
+
 }
